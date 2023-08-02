@@ -7,7 +7,7 @@
 </head>
 <body>
     <fieldset>
-        <div id="container">
+        <div id="Container">
             <legend>Entre em Contato</legend>
             <p>Assunto 
                 <select name="Assunto">
@@ -18,13 +18,15 @@
             </p>
         </div>
 
-        <div id="Nome">
+        <div id="Dados">
             <form action="getform.php" method="get">
                 Nome Completo: <input type="text" name="nome" /><br />
                 E-mail: <input type="email" name="email_usuario" /><br />
                 Mesagem: <input type="text" name="input" /><br />
-                <input type="submit" value="Enviar" />
             </form>
+
+            <input type="checkbox" type= "text" name="Aceito receber novidades por e-mail" />Aceito receber novidades por e-mail<br />
+            <input type="submit" value="Enviar" />
         </div>
 
         
