@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <fieldset>
+    <fieldset> 
+        <legend>Entre em Contato</legend>
         <div id="Container">
-            <legend>Entre em Contato</legend>
             <p>Assunto 
                 <select name="Assunto">
                     <option value="Sugestão" selected>Sugestões</option>
@@ -16,21 +17,33 @@
                     <option value="Reclamação">Reclamação</option>
                 </select>
             </p>
-        </div>
 
-        <div id="Dados">
-            <form action="getform.php" method="get">
-                Nome Completo: <input type="text" name="nome" /><br />
-                E-mail: <input type="email" name="email_usuario" /><br />
-                Mesagem: <input type="text" name="input" /><br />
-            </form>
-
-            <input type="checkbox" type= "text" name="Aceito receber novidades por e-mail" />Aceito receber novidades por e-mail<br />
-            <input type="submit" value="Enviar" />
-        </div>
-
+            
         
-        
+
+            <div id="Dados">
+                <form action="getform.php" method="get">
+                    <ul>
+                        <li>
+                            Nome Completo: <br /> <input type="text" name="nome" /><br />
+                        </li>
+                        <li>
+                            E-mail: <br /> <input type="email" name="email_usuario" /><br />
+                        </li>
+                        <li>
+                            Mensagem: <br /> <input type="text" name="Mensagem" /><br />
+                        </li>
+                        <li>
+                            <input type="checkbox" type= "text" name="Aceito receber novidades por e-mail" />Aceito receber novidades por e-mail<br />                    </li>
+                        <li>
+                            <input type="submit" value="Enviar" />
+                        </li>
+                    </ul>
+                </form>
+
+
+            </div>
+        </div> 
     </fieldset>
 </body>
 </html>

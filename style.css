@@ -1,0 +1,15 @@
+* {
+    font-weight: 500;
+}
+
+#Dados {
+    display: block;
+}
+ul {
+    font-weight: 500;
+    padding: 24px 0;
+    list-style: none;
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+}
