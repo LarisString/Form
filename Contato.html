@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+</head>
+<body>
+    <fieldset>
+        <div id="container">
+            <legend>Entre em Contato</legend>
+            <p>Assunto 
+                <select name="Assunto">
+                    <option value="Sugestão" selected>Sugestões</option>
+                    <option value="Suporte">Suporte</option>
+                    <option value="Reclamação">Reclamação</option>
+                </select>
+            </p>
+        </div>
+
+        <div id="Nome">
+            <form action="getform.php" method="get">
+                Nome Completo: <input type="text" name="nome" /><br />
+                E-mail: <input type="email" name="email_usuario" /><br />
+                Mesagem: <input type="text" name="input" /><br />
+                <input type="submit" value="Enviar" />
+            </form>
+        </div>
+
+        
+        
+    </fieldset>
+</body>
+</html>
