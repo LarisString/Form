@@ -2,6 +2,10 @@
     font-weight: 500;
 }
 
+#Container p {
+    font-weight: 500;  
+}
+
 #Dados {
     display: block;
 }
@@ -13,3 +17,4 @@ ul {
     display: flex;
     flex-direction: column;
 }
+
